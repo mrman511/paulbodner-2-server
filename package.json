@@ -1,0 +1,24 @@
+{
+  "name": "paulbodner-2-server",
+  "version": "1.0.0",
+  "description": "PaulBodner 2 site server",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrman511/paulbodner-2-server.git"
+  },
+  "author": "Paul Bodner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrman511/paulbodner-2-server/issues"
+  },
+  "homepage": "https://github.com/mrman511/paulbodner-2-server#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mysql": "^2.18.1",
+    "pg": "^8.7.3"
+  }
+}

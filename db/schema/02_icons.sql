@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS icons CASCADE;
+
+CREATE TABLE icons (
+  id SERIAL PRIMARY KEY NOT NULL,
+  title VARCHAR(100),
+  image_path_name VARCHAR(225)
+);
