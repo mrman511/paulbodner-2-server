@@ -17,8 +17,15 @@
   },
   "homepage": "https://github.com/mrman511/paulbodner-2-server#readme",
   "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
     "express": "^4.18.1",
+    "http": "*",
     "mysql": "^2.18.1",
     "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
   }
 }
