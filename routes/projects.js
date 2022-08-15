@@ -5,8 +5,8 @@ module.exports = (db) => {
   router.get('/', (req, res) => {
     db.query(`
     SELECT projects.* FROM projects;
-    `).then((response) => {
-      res.json(response.rows);
+    `).then(({ rows }) => {
+      res.json(rows);
     })
   });
 
@@ -16,8 +16,8 @@ module.exports = (db) => {
     projects_icons ON icon_id = icons.id
     WHERE project_id = $1;
     `, [Number(req.params.id)]
-    ).then((response) => {
-      res.json(response.rows);
+    ).then(({ rows }) => {
+      res.json(rows);
     })
   })
 
