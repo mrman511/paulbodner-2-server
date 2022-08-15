@@ -1,17 +1,17 @@
 INSERT INTO projects (title, description, image_path_name, link, github) VALUES 
 ('PaulBodner.com',
 'My Personal Portfolio, this page was made possible with the Fullpage.js 
-framework, and demonstrates my ability to work with apreviously unfamiliar 
+framework, and demonstrates my ability to work with a previously unfamiliar 
 framework when educational resources are sparse and my ability to 
 understand the documentation and the code becomes paramount. This WebPage 
-was created using React, Fullpage.js, ReactTransitions, and and Express Api',
+was created using React, Fullpage.js, ReactTransitions, and an Express Api',
 'paulbodner-site',
 'https://paulbodner.com',
 'https://github.com/mrman511/pb-front-end-v2'),
 
 ('Dev Search', 
 'Created during Udemy course Python Django - The Complete Course. 
-This project many important Django features such as User Authentication, 
+This project uses many important Django features such as User Authentication, 
 Admin User, Password Recovery, User Profiles, User Owned Models, 
 Interacting with Models, Insite messaging. etc',
 'devsearch',
